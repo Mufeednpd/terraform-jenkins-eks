@@ -82,6 +82,6 @@ module "ec2_instance" {
     Environment = "dev"
   }
   public_subnet_tags = {
-    Name = "Jenkis-subnet"
+    Name = "Jenkins-subnet"
   }
 }
