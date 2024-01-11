@@ -81,7 +81,5 @@ module "ec2_instance" {
     Terraform   = "true"
     Environment = "dev"
   }
-  public_subnet_tags = {
-    Name = "Jenkins-subnet"
-  }
+
 }
